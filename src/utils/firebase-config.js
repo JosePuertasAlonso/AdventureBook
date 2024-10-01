@@ -1,16 +1,18 @@
+// src/utils/firebase-config.js
 import { initializeApp } from 'firebase/app';
 import { getStorage } from 'firebase/storage';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_APP_ID,
-  measurementId: import.meta.env.VITE_MEASUREMENT_ID,
+  apiKey: "AIzaSyB9PhMGarEyxH7z-A6smwEyCzZMzxlb-B4",
+  authDomain: "mapa-interactivo-f1b27.firebaseapp.com",
+  projectId: "mapa-interactivo-f1b27",
+  storageBucket: "mapa-interactivo-f1b27.appspot.com",
+  messagingSenderId: "514963880987",
+  appId: "1:514963880987:web:39e58e06dbd4df1e024cbe",
+  measurementId: "G-M933RJPQ6F"
 };
+
 
 // Inicializar Firebase
 const app = initializeApp(firebaseConfig);
